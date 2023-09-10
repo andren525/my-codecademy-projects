@@ -1,0 +1,112 @@
+body {
+    background-color: black;
+    color: seashell;
+    opacity: 0.9;
+    font-size: 22px;
+    font-family: Helvetica;
+
+}
+
+.nav-logo {
+    height: 69;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    z-index: 1;
+    background-color: black;
+}
+
+.logo{
+    height: 50px;
+    margin: 0px 10px;
+    opacity: 0.9;
+}
+
+
+
+.nav {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+a {
+    color: seashell;
+    opacity: 0.9;
+}
+h2, h4 {
+    text-align: center;
+}
+
+
+#mission {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*couzlc*_ga*NDU2OTEyNDIyOC4xNjgzMTAzMDI1*_ga_3LRZM6TM9L*MTY5NDE4MTY3My4xNy4xLjE2OTQxODMwMTguMC4wLjA.");
+    max-width: 1200px;
+    height: 700px;
+margin-top: 70px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.backgroundblk {
+    background-color: black;
+    margin: 0px 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+#featuredtea{
+    max-width: 1000px;
+    margin: auto;
+}
+
+#featuredtea div{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+figure {
+    margin: 0px 0px;
+}
+
+#featuredtea figure img{
+    width: 300px;
+    height: 200px;
+}
+
+
+#featuredtea figcaption {
+    margin: 10px auto;
+    text-align: center;
+    font-weight: 700;
+}
+
+#locations{
+    box-sizing: border-box;
+    height: 500px;
+    max-width: 1200px;
+    margin: auto;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1s97yy7*_ga*NDU2OTEyNDIyOC4xNjgzMTAzMDI1*_ga_3LRZM6TM9L*MTY5NDE4NTU5My4xOC4xLjE2OTQxODU4OTcuMC4wLjA.");
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+}
+
+#locations h2 {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+#locations .backgroundblk {
+    width: 300px;
+
+}
